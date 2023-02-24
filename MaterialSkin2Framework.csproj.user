@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Controls\BaseTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\FlexibleMaterialDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Controls\MaterialButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\MaterialCard.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\MaterialCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\MaterialCheckedListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\MaterialComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\MaterialContextMenuStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\MaterialDataTable.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\MaterialDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Controls\MaterialDivider.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\MaterialDrawer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\MaterialExpansionPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\MaterialFloatingActionButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\MaterialForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Controls\MaterialLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\MaterialListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\MaterialListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\MaterialMaskedTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\MaterialMultiLineTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\MaterialMultiLineTextBox2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\MaterialProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\MaterialRadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\MaterialScrollBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\MaterialSlider.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\MaterialSnackBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Controls\MaterialSwitch.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\MaterialTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\MaterialTabSelector.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\MaterialTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\MaterialTextBox2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

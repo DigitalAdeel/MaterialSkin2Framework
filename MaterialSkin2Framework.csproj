@@ -1,0 +1,63 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Description>.NET Framework Version of MaterialSkin2DotNet. </Description>
+    <Copyright>Copyright Digital Adeel © 2020-23</Copyright>
+    <PackageProjectUrl>https://github.com/DigitalAdeel/MaterialSkin2Framework</PackageProjectUrl>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageIcon>nuget_icon.png</PackageIcon>
+    <RepositoryUrl>https://github.com/DigitalAdeel/MaterialSkin2Framework</RepositoryUrl>
+    <PackageTags>materialskin, materialui, materialuinet,material,material design,design,net,net framework,winforms,win forms, theme</PackageTags>
+    <PackageReleaseNotes>------------------
+First Ever Release.
+------------------
+Same features mentioned at MaterialSkin2DotNet's Repo.</PackageReleaseNotes>
+    <Authors>DigitalAdeel, leocb, IgnaceMaes</Authors>
+    <Company>DASolutions</Company>
+    <Owner>Digital Adeel</Owner>
+    <Version>1.0.0</Version>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <NeutralLanguage>en</NeutralLanguage>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <FileVersion>1.0.0</FileVersion>
+    <Title>MaterialSkin2Framework</Title>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="nuget_icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\nuget_icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Design" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
